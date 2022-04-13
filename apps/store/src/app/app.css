@@ -1,0 +1,24 @@
+.game-card {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.game-card > .game-rating {
+  padding-top: 10px;
+}
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+.game-details {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.game-card-media {
+  height: 140px;
+}

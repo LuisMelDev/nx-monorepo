@@ -6,7 +6,9 @@ import Typography from '@mui/material/Typography';
 
 
 /* eslint-disable-next-line */
-export interface HeaderProps {}
+export interface HeaderProps {
+  title: string;
+}
 
 export const Header = (props: HeaderProps) => {
 
@@ -14,7 +16,7 @@ export const Header = (props: HeaderProps) => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6">
-          Board Game Hoard
+          {props.title}
         </Typography>
       </Toolbar>
     </AppBar>
